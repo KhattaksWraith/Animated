@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Watch 3 Ultra — Engineered Beyond Limits</title>
+    <meta name="description" content="Pixel Watch 3 Ultra. Precision-engineered for endurance, intelligence, and limitless performance. Experience the most advanced smartwatch ever.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- LOADING SCREEN                              -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div id="loader" class="loader">
+        <div class="loader-inner">
+            <div class="loader-logo">Pixel Watch 3 Ultra</div>
+            <div class="loader-bar-track">
+                <div class="loader-bar-fill" id="loaderBar"></div>
+            </div>
+            <div class="loader-percent" id="loaderPercent">0%</div>
+        </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- NAVBAR                                      -->
+    <!-- ═══════════════════════════════════════════ -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo" id="nav-logo">Pixel Watch 3 Ultra</a>
+            <div class="nav-links">
+                <a href="#overview" class="nav-link">Overview</a>
+                <a href="#technology" class="nav-link">Technology</a>
+                <a href="#engineering" class="nav-link">Engineering</a>
+                <a href="#specs" class="nav-link">Specs</a>
+                <a href="#buy" class="nav-link">Buy</a>
+            </div>
+            <a href="#buy" class="nav-cta" id="nav-cta">Pre-order Now</a>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SCROLL CONTAINER — sticky canvas + overlays -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="scroll-container" class="scroll-container">
+        <div class="sticky-wrapper">
+            <canvas id="watchCanvas"></canvas>
+
+            <!-- BEAT 1 — HERO (0–15%) -->
+            <div class="story-beat beat-hero" id="beat-hero">
+                <div class="beat-content beat-left beat-hero-content">
+                    <p class="beat-eyebrow">Introducing</p>
+                    <h1 class="beat-headline hero-headline">Pixel Watch<br>3 Ultra</h1>
+                    <p class="beat-subheadline">Engineered beyond limits.</p>
+                    <p class="beat-price">From <span class="price-value">$399</span></p>
+                    <div class="hero-actions">
+                        <a href="#buy" class="btn-primary" id="btn-buy-hero">Buy</a>
+                        <a href="#overview" class="btn-secondary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BEAT 2 — ENGINEERING REVEAL (15–40%) -->
+            <div class="story-beat beat-engineering" id="beat-engineering">
+                <div class="beat-content beat-left">
+                    <p class="beat-eyebrow">Engineering</p>
+                    <h2 class="beat-headline">Precision-engineered<br>for endurance.</h2>
+                    <p class="beat-body">Aerospace-grade titanium case. Sapphire crystal front. Every micron designed for impact resistance, water sealing, and all-day performance in the most extreme conditions.</p>
+                    <p class="beat-body">Each component is tuned for power, durability, and comfort — from ocean depths to mountain peaks.</p>
+                </div>
+            </div>
+
+            <!-- BEAT 3 — SENSORS & INTELLIGENCE (40–65%) -->
+            <div class="story-beat beat-sensors" id="beat-sensors">
+                <div class="beat-content beat-right">
+                    <p class="beat-eyebrow">Intelligence</p>
+                    <h2 class="beat-headline">Adaptive intelligence,<br>redefined.</h2>
+                    <div class="beat-features">
+                        <p class="beat-feature">Next-generation sensor array monitors vitals in real time.</p>
+                        <p class="beat-feature">Precision dual-frequency GPS for every terrain.</p>
+                        <p class="beat-feature">Advanced health insights adapt and learn — so you can push further, safer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BEAT 4 — PERFORMANCE & DISPLAY (65–85%) -->
+            <div class="story-beat beat-performance" id="beat-performance">
+                <div class="beat-content beat-left">
+                    <p class="beat-eyebrow">Performance</p>
+                    <h2 class="beat-headline">Immersive, lifelike<br>experience.</h2>
+                    <p class="beat-body">The brightest display ever — up to 3000 nits — delivers clarity in direct sunlight and near-darkness alike.</p>
+                    <p class="beat-body">Custom Neural Engine powers real-time processing, enabling on-device AI, gesture control, and seamless performance that feels instantaneous.</p>
+                </div>
+            </div>
+
+            <!-- BEAT 5 — REASSEMBLY & CTA (85–100%) -->
+            <div class="story-beat beat-cta" id="beat-cta">
+                <div class="beat-content beat-cta-content">
+                    <h2 class="beat-headline cta-headline">Feel everything.<br>Limit nothing.</h2>
+                    <p class="beat-subheadline">Pixel Watch 3 Ultra.<br>Designed for adventure, crafted for life.</p>
+                    <div class="cta-buttons">
+                        <a href="#buy" class="btn-primary" id="btn-experience">Pre-order — $399</a>
+                        <a href="#specs" class="btn-secondary" id="btn-specs">See full specs</a>
+                    </div>
+                    <p class="beat-micro">Engineered for the ocean, the trail, and everything in between.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- FOOTER                                      -->
+    <!-- ═══════════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h4 class="footer-heading">Explore</h4>
+                    <a href="#" class="footer-link">Pixel Watch 3 Ultra</a>
+                    <a href="#" class="footer-link">Pixel Watch 3</a>
+                    <a href="#" class="footer-link">Pixel Watch SE</a>
+                    <a href="#" class="footer-link">Watch Bands</a>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Services</h4>
+                    <a href="#" class="footer-link">Preferred Care</a>
+                    <a href="#" class="footer-link">Fitbit Premium</a>
+                    <a href="#" class="footer-link">Google Health</a>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Support</h4>
+                    <a href="#" class="footer-link">Watch User Guide</a>
+                    <a href="#" class="footer-link">Contact Support</a>
+                    <a href="#" class="footer-link">Service & Repair</a>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Google Store</h4>
+                    <a href="#" class="footer-link">Find a Store</a>
+                    <a href="#" class="footer-link">Trade In</a>
+                    <a href="#" class="footer-link">Financing</a>
+                    <a href="#" class="footer-link">Order Status</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-legal">Copyright &copy; 2026 Google LLC. All rights reserved.</p>
+                <div class="footer-legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Sales and Refunds</a>
+                    <a href="#">Legal</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
