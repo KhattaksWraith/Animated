@@ -206,10 +206,10 @@ img, canvas {
     font-size: 0.7rem;
     font-weight: 500;
     letter-spacing: 0.01em;
-    color: white;
+    color: #111;
     padding: 6px 16px;
     border-radius: 20px;
-    background: linear-gradient(135deg, #D00000, #A00000);
+    background: #ffffff;
     position: relative;
     overflow: hidden;
     transition: box-shadow 0.35s var(--ease-out), transform 0.25s;
@@ -222,7 +222,7 @@ img, canvas {
     inset: 0;
     border-radius: 20px;
     padding: 1px;
-    background: linear-gradient(135deg, #FF3333, #D00000);
+    background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,255,255,0.5));
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
@@ -231,7 +231,7 @@ img, canvas {
 }
 
 .nav-cta:hover {
-    box-shadow: 0 0 20px rgba(208, 0, 0, 0.3), 0 0 60px rgba(255, 51, 51, 0.08);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 0 0 60px rgba(255, 255, 255, 0.06);
     transform: translateY(-1px);
 }
 
@@ -439,10 +439,10 @@ img, canvas {
 .btn-primary {
     font-size: 0.9rem;
     font-weight: 500;
-    color: white;
+    color: #111;
     padding: 14px 32px;
     border-radius: 28px;
-    background: linear-gradient(135deg, #D00000, #A00000);
+    background: #ffffff;
     position: relative;
     overflow: hidden;
     letter-spacing: 0.01em;
@@ -455,7 +455,7 @@ img, canvas {
     inset: 0;
     border-radius: 28px;
     padding: 1.5px;
-    background: linear-gradient(135deg, #FF3333, #D00000);
+    background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,255,255,0.5));
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
@@ -463,24 +463,24 @@ img, canvas {
 }
 
 .btn-primary:hover {
-    box-shadow: 0 4px 30px rgba(208, 0, 0, 0.35), 0 0 80px rgba(255, 51, 51, 0.1);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.2), 0 0 80px rgba(255, 255, 255, 0.08);
     transform: translateY(-2px);
 }
 
 .btn-secondary {
     font-size: 0.9rem;
     font-weight: 500;
-    color: #FF3333;
+    color: #ffffff;
     padding: 14px 32px;
     border-radius: 28px;
-    border: 1px solid rgba(208, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     transition: border-color 0.3s, background 0.3s, transform 0.25s;
     letter-spacing: 0.01em;
 }
 
 .btn-secondary:hover {
-    border-color: rgba(208, 0, 0, 0.55);
-    background: rgba(208, 0, 0, 0.08);
+    border-color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.08);
     transform: translateY(-2px);
 }
 
